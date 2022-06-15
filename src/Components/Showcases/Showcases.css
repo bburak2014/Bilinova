@@ -1,0 +1,197 @@
+.MuiCard-root{
+    background-color: white !important;
+    transition: "0.3s";
+    box-shadow: 0px 2px 0px 0px rgb(0 0 0 / 0%), 0px 0px 0px 0px rgb(0 0 0 / 0%), 0px 0px 0px 0px rgb(0 0 0 / 0%) !important;
+   }
+
+.MuiCard-root:hover{
+     cursor: pointer;
+  }
+  .MuiCardActions-spacing   {
+    display: flex !important;
+    justify-content: flex-end;
+  }
+
+  .MuiCardActions-spacing .MuiButton-iconSizeMedium .MuiSvgIcon-root {
+    color: white !important; 
+}
+.MuiCardActions-spacing .MuiButton-outlined   .MuiSvgIcon-fontSizeMedium {
+  color: #1565c0 !important; 
+}
+ .MuiButton-contained{
+  border-radius: 30px !important; 
+
+ }
+ .MuiButton-outlined {
+  border-radius: 30px !important; 
+
+ }
+ .CartCity{
+  color: #1565c0 ; 
+  font-weight: bold;
+  font-size: 20px !important;
+  text-align: left;
+  padding-left: 5px;
+
+ }
+ .CartPort{
+  color: #1565c0 ; 
+  font-weight: normal;
+  font-size: 16px !important;
+  text-align: left;
+  padding-left: 5px;
+
+ }
+ .CartMile{
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 5px;
+ }
+ .updateDate{
+  color: rgba(247, 149, 31, 1) ;
+  font-weight: 550;
+  font-size: 16px;
+  padding-top: 5px;
+  text-align: left;
+  padding-left: 5px !important;
+
+
+ }
+.CardPrice{
+  color: rgb(199, 2, 2);
+  font-weight: bold;
+  font-size: 20px !important;
+  text-align: right;
+  padding-right: 10px;
+
+}
+.CardKDV{
+  color: black;
+  font-weight: normal;
+  font-size: 14px !important;
+  text-align: right;
+  padding-right: 10px;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root{
+    --bg-color: white;
+}
+.home-title span{
+  position: relative;
+  overflow: hidden;
+  display: block;
+  line-height: 1.2;
+}
+
+.home-title span::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 114, 188, 1);
+  animation: a-ltr-after 2s cubic-bezier(.77,0,.18,1) forwards;
+  transform: translateX(-101%);
+}
+
+.home-title span::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color);
+  animation: a-ltr-before 2s cubic-bezier(.77,0,.18,1) forwards;
+  transform: translateX(0);
+}
+
+.home-title span:nth-of-type(1)::before,
+.home-title span:nth-of-type(1)::after{
+  animation-delay: 1s;
+}
+
+.home-title span:nth-of-type(2)::before,
+.home-title span:nth-of-type(2)::after{
+  animation-delay: 1.5s;
+}
+
+.carFeature , .carFeature2 , .carFeature3{
+  text-align: center !important;
+}
+.activeF{
+  color: rgba(247, 149, 31, 1) !important;
+
+}
+.NoactiveF{
+  color: rgba(0, 114, 188, 1) !important;
+
+
+}
+.CartlistBodyAdd{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+   
+  
+}
+.cartDivAdd{
+  background-color: white;
+  width: 100%;
+  max-width: 1200px;
+   padding: 10px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+
+
+}
+@keyframes a-ltr-after{
+  0% {transform: translateX(-100%)}
+  100% {transform: translateX(101%)}
+}
+
+@keyframes a-ltr-before{
+  0% {transform: translateX(0)}
+  100% {transform: translateX(200%)}
+}
+.home-title:hover span{
+  color: rgba(247, 149, 31, 1) ;
+
+}
+
+
+@media screen and (max-width: 1000px) {
+  .MuiCardActions-spacing   {
+     justify-content: center;
+  }
+   
+}
+@media screen and (min-width: 900px) {
+   
+  .carFeature{
+text-align: left;
+}
+.carFeature2{
+text-align: right;
+}
+.updateDate{
+text-align: center;
+padding-left:  0px !important;
+
+}
+.CardPrice{
+text-align: right;
+}
+.carFeature3{
+ text-align: center;
+}
+
+}

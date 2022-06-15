@@ -1,0 +1,83 @@
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .MuiInputBase-input {
+     border-radius: 20px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 599px) {
+  .MuiInputBase-input {
+     border-radius: 20px;
+    left: 5px;
+    position: relative;
+  }
+}
+.MuiPaper-root {
+  background-color: rgb(220 223 231) !important;
+}
+.MuiPaper-outlined {
+  color: transparent !important;
+  border: 0px !important;
+}
+.MuiSvgIcon-root {
+  color: rgba(0, 114, 188, 1) !important;
+}
+
+.MuiButtonBase-root:hover .MuiSvgIcon-root{
+     
+        color: rgba(247, 149, 31, 1) !important;
+     
+}
+.MuiInputBase-input {
+  color: black !important;
+}
+.MuiButton-textPrimary {
+  color: rgba(0, 114, 188, 1) !important;
+}
+.MuiButton-textPrimary:hover {
+  color: rgba(247, 149, 31, 1) !important;
+}
+.pmobilLink{
+    color: rgba(0, 114, 188, 1) !important;
+
+}
+.MuiButtonBase-root:hover .pmobilLink{
+    color: rgba(247, 149, 31, 1) !important;
+
+}
+header{
+  position:fixed !important;
+  z-index: 5;
+}
+ 
+.MuiMenuItem-root{
+  display: flex !important;
+  flex-direction: column !important;
+}
+.MuiMenuItem-root button{
+  margin-top: 5px;
+}
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+  position: sticky !important;
+  left:82% !important;
+  top: 88px !important;
+  width: 200px;
+  margin-right: 20px;
+  z-index: 50;
+}
+.toast-container{
+   
+  position: sticky !important;
+    left: 81% !important;
+    top: 88px !important;
+    width: 200px !important;
+    margin-right: 20px !important;
+    z-index: 55 !important;
+
+}
+.toast-header{
+  background-color: green !important;
+  color: white !important;
+}
+.toast-body{
+  background-color: white !important;
+}
